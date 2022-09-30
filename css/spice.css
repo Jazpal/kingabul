@@ -1,0 +1,260 @@
+header {
+    background-color: burlywood;
+    height: 150px;
+}
+
+#logo {
+    display: inline-block;
+    width: 25%;
+    padding-left: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    display: inline-block;
+}
+
+#home {
+    width: 50%;
+}
+
+#sign {
+    width: 15%;
+    position: absolute;
+    right: 10%;
+}
+
+#content {
+    max-width: 450px;
+    padding-left: 35px;
+}
+
+#back {
+    background-image: url(../Images/ground.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 20px;
+}
+
+#write {
+    margin-bottom: 70px;
+    background-color: burlywood;
+    height: 400px;
+    margin-top: -45px;
+}
+
+#right {
+    float: right;
+    width: 50%;
+    height: 35%;
+    margin-top: -35%;
+    padding-top: 40px;
+}
+
+#main {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.limp {
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 22px;
+}
+
+.pix {
+    border-radius: 50%;
+    width: 31px;
+}
+
+#ded {
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#para {
+    text-align: center;
+}
+
+.flex-container {
+    /* animation-name: FadeBounce;
+    animation-duration: 2s; */
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-img {
+    max-width: 280px;
+    max-height: 280px;
+}
+
+.type {
+    border: 1px solid white;
+    padding: 0px 10px;
+    margin: 5px 10px;
+}
+
+.type:hover {
+    background-color: wheat;
+}
+
+.span-h1 {
+    font-size: 31px;
+}
+
+/* @keyframes fadeBounce{
+    0%{
+        opacity: 0%;
+        transform: translateY(-100%);
+    }
+    100%{
+        opacity: 0%;
+        transform: translateY(0%);
+    }
+} */
+.span-text {
+    font-size: 18px;
+}
+
+.gram {
+    margin-bottom: -10px;
+    font-size: 16px;
+}
+
+.buy {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 16px;
+    color: orangered;
+}
+
+.buy-link {
+    display: inline-block;
+    background-color: orangered;
+    padding: 7px 30px;
+    border-radius: 10px;
+    margin-top: -30px;
+    font-size: 16px;
+    margin-left: 75px;
+    color: white;
+}
+
+#team-nav {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#our {
+    font-size: 35px;
+    margin-top: -30px;
+}
+}
+
+#donor {
+    font-size: 28px;
+}
+
+.team-img {
+    max-width: 200px;
+    max-height: 280px;
+}
+
+#flex-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.title {
+    font-size: 20px;
+    color: orangered;
+}
+
+.team-span {
+    margin: 0px 20px;
+    background-color: wheat;
+    border-radius: 25px;
+}
+
+#back {
+    height: 600px;
+}
+
+#sales-div {
+    text-align: center;
+    padding-top: 90px;
+}
+
+#sale-h1 {
+    margin-top: -20px;
+    color: azure;
+    font-size: 45px;
+}
+
+#sales-p1 {
+    color: orangered;
+    font-size: 40px;
+}
+
+#sales-p2 {
+    color: orangered;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+#sales-nav1 {
+    border: 1px solid orangered;
+    color: orangered;
+    padding: 10px 25px;
+    margin-right: 10px;
+}
+
+#sales-nav2 {
+    background-color: orangered;
+    padding: 10px 25px;
+    color: azure;
+    margin-left: 10px;
+}
+
+footer {
+    margin-top: 35px;
+    background-color: rgb(61, 4, 4);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+}
+
+#sect {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-size: 28px;
+}
+
+#float {
+    float: right;
+}
+
+.put {
+    margin: 60px 55px;
+}
+
+.foot {
+    margin: 75px;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+}
